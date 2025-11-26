@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MD Computers Pvt Ltd — Computer Institute in Rajpura</title>
+  <meta name="description" content="MD Computers Pvt Ltd — Professional computer training in Rajpura. Courses: Basic Computers, Tally, MS Office, Web Development, Programming, Hardware & Networking." />
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* small extra styles */
+    .hero-mask { background: linear-gradient(90deg, rgba(6,11,24,0.6), rgba(0,0,0,0.25)); }
+    .glass { background: rgba(255,255,255,0.06); backdrop-filter: blur(6px); }
+  </style>
+</head>
+<body class="antialiased text-gray-800 bg-fixed bg-cover bg-center" style="background-image:url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1950&q=80');">
+
+  <!-- NAV -->
+  <header class="sticky top-0 z-40 bg-white/60 backdrop-blur border-b border-gray-100">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-3">
+        <div class="w-12 h-12 rounded-md bg-indigo-600 flex items-center justify-center text-white font-bold">MD</div>
+        <div>
+          <h1 class="text-lg font-semibold">MD Computers Pvt Ltd</h1>
+          <p class="text-xs text-gray-500">53 Durga Colony, Rajpura Town</p>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+        <a href="#courses" class="hover:text-indigo-600">Courses</a>
+        <a href="#trainers" class="hover:text-indigo-600">Teachers</a>
+        <a href="#about" class="hover:text-indigo-600">About</a>
+        <a href="#contact" class="hover:text-indigo-600">Contact</a>
+        <a href="#" class="ml-4 inline-block px-4 py-2 bg-indigo-600 text-white rounded-md">Enroll Now</a>
+      </nav>
+
+      <div class="md:hidden">
+        <button id="menuBtn" aria-label="Open menu" class="p-2 rounded-md focus:outline-none">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO (enhanced with subtle overlay + fade-in animation) -->
+  <style>
+    .fade-in{opacity:0;animation:fadeIn 1.8s ease-in-out forwards;}@keyframes fadeIn{to{opacity:1;}}
+    .float-up{opacity:0;transform:translateY(20px);animation:floatUp 1.5s ease-out forwards;}@keyframes floatUp{to{opacity:1;transform:translateY(0);}}
+  </style>
+  <!-- HERO -->
+  <section id="home" class="relative">
+    <div class="hero-mask absolute inset-0" style="background-image: url('https://images.unsplash.com/photo-1523473827532-3f58a88eb3e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80'); background-size: cover; background-position: center;"></div>
+    <div class="max-w-6xl mx-auto relative z-10 px-6 py-28">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div class="text-white fade-in">
+          <h2 class="text-4xl md:text-5xl font-extrabold leading-tight ">Learn. Build. Succeed.</h2>
+          <p class="mt-4 text-lg max-w-xl text-white/90">MD Computers Pvt Ltd — Practical computer training in Rajpura. From basics to advanced professional courses — designed to make you job-ready.</p>
+
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="#contact" class="px-6 py-3 bg-white text-indigo-700 rounded-md font-semibold">Get Free Counselling</a>
+            <a href="#courses" class="px-6 py-3 bg-white border border-white/30 text-indigo-700 rounded-md">View Courses</a>
+          </div>
+
+          <div class="mt-6 text-lg text-white-700"><h3>Contact: <strong>9876035260 • Address: 53 Durga Colony, Rajpura Town</strong>  </h3></div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 shadow-lg glass">
+          <h3 class="text-xl font-semibold mb-4">Why choose MD Computers?</h3>
+          <ul class="space-y-3 text-sm text-gray-700">
+            <li>• Experienced Trainers with practical exposure</li>
+            <li>• Small batches & personalised mentoring</li>
+            <li>• Hands-on lab sessions and real projects</li>
+            <li>• Placement assistance & certification guidance</li>
+          </ul>
+
+          <div class="mt-6">
+            <h4 class="text-sm text-gray-500">Popular Courses</h4>
+            <div class="mt-3 grid grid-cols-2 gap-3 text-sm">
+              <div class="p-3 rounded-md bg-indigo-50">Basic Computers</div>
+              <div class="p-3 rounded-md bg-indigo-50">MS Office & Tally</div>
+              <div class="p-3 rounded-md bg-indigo-50">Web Development</div>
+              <div class="p-3 rounded-md bg-indigo-50">Hardware & Networking</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section id="courses" class="py-14">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="flex items-center justify-between mb-8">
+<div class="p-6 rounded-xl bg-white shadow-sm">
+        <h3 class="text-2xl font-bold">Our Courses</h3></div>
+
+        <h2 class="text-2xl font-bold">Short-term & long-term courses, weekend batches available</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        <div class="p-6 rounded-xl bg-white shadow-sm">
+          <h4 class="text-lg font-semibold">C++ Programming</h4>
+          <p class="mt-2 text-sm text-gray-600">Object-oriented programming, logic building and project-based learning.</p>
+          <div class="mt-4 text-sm font-medium">Duration: 2 Months</div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-white shadow-sm">
+          <h4 class="text-lg font-semibold">Java (Core + Advanced)</h4>
+          <p class="mt-2 text-sm text-gray-600">Core Java, OOPs, JDBC, Servlets and intro to frameworks.</p>
+          <div class="mt-4 text-sm font-medium">Duration: 3 Months</div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-white shadow-sm">
+          <h4 class="text-lg font-semibold">PHP & MySQL</h4>
+          <p class="mt-2 text-sm text-gray-600">Backend development, CRUD apps, MySQL database integration.</p>
+          <div class="mt-4 text-sm font-medium">Duration: 2 Months</div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-white shadow-sm">
+          <h4 class="text-lg font-semibold">.NET Technologies</h4>
+          <p class="mt-2 text-sm text-gray-600">C#, .NET framework, desktop apps, and basic web applications.</p>
+          <div class="mt-4 text-sm font-medium">Duration: 3 Months</div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-white shadow-sm">
+          <h4 class="text-lg font-semibold">Python Programming</h4>
+          <p class="mt-2 text-sm text-gray-600">Beginner to intermediate Python with real projects.</p>
+          <div class="mt-4 text-sm font-medium">Duration: 2–3 Months</div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-white shadow-sm">
+          <h4 class="text-lg font-semibold">Web Design & Development</h4>
+          <p class="mt-2 text-sm text-gray-600">HTML, CSS, JavaScript, responsive design & mini projects.</p>
+          <div class="mt-4 text-sm font-medium">Duration: 3 Months</div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-white shadow-sm">
+          <h4 class="text-lg font-semibold">Android Development</h4>
+          <p class="mt-2 text-sm text-gray-600">Build Android apps using Java/Kotlin with hands-on practice.</p>
+          <div class="mt-4 text-sm font-medium">Duration: 3–4 Months</div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-white shadow-sm">
+          <h4 class="text-lg font-semibold">Networking & Hardware</h4>
+          <p class="mt-2 text-sm text-gray-600">Computer hardware, troubleshooting, LAN/WAN basics and networking.</p>
+          <div class="mt-4 text-sm font-medium">Duration: 2 Months</div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-white shadow-sm">
+          <h4 class="text-lg font-semibold">Business Management</h4>
+          <p class="mt-2 text-sm text-gray-600">Business operations, management concepts and practical training.</p>
+          <div class="mt-4 text-sm font-medium">Duration: 1–2 Months</div>
+        </div>
+
+        <div class="p-6 rounded-xl bg-white shadow-sm">
+          <h4 class="text-lg font-semibold">Finance & Accounting</h4>
+          <p class="mt-2 text-sm text-gray-600">Tally, GST, income tax basics and financial accounting training.</p>
+          <div class="mt-4 text-sm font-medium">Duration: 2 Months</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TEACHERS -->
+  <section id="trainers" class="py-14 bg-slate-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="mb-8">
+        <h3 class="text-2xl font-bold">Meet Our Teachers & Manager</h3>
+        <p class="text-sm text-gray-500">Experienced mentors who teach with patience and real-world experience.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- teacher card template -->
+        <div class="p-6 bg-white rounded-xl shadow-sm text-center">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60" alt="Malkit Singh" class="w-28 h-28 rounded-full mx-auto object-cover"/>
+          <h4 class="mt-4 font-semibold">Malkit Singh</h4>
+          <p class="text-sm text-gray-500">Senior Trainer</p>
+        </div>
+
+        <div class="p-6 bg-white rounded-xl shadow-sm text-center">
+          <img src="https://images.unsplash.com/photo-1545289412-2b7e2f6a0c0e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60" alt="Jasvir kaur" class="w-28 h-28 rounded-full mx-auto object-cover"/>
+          <h4 class="mt-4 font-semibold">Jasvir kaur</h4>
+          <p class="text-sm text-gray-500">Trainer</p>
+        </div>
+
+        <div class="p-6 bg-white rounded-xl shadow-sm text-center">
+          <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60" alt="Anurag Batra" class="w-28 h-28 rounded-full mx-auto object-cover"/>
+          <h4 class="mt-4 font-semibold">Anurag Batra</h4>
+          <p class="text-sm text-gray-500">Trainer</p>
+        </div>
+
+        <div class="p-6 bg-white rounded-xl shadow-sm text-center">
+          <img src="https://images.unsplash.com/photo-1544006659-f0b21884ce1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60" alt="Vandana Batra" class="w-28 h-28 rounded-full mx-auto object-cover"/>
+          <h4 class="mt-4 font-semibold">Vandana Batra</h4>
+          <p class="text-sm text-gray-500">Trainer</p>
+        </div>
+
+        <div class="p-6 bg-white rounded-xl shadow-sm text-center">
+          <img src="https://images.unsplash.com/photo-1545996124-1b5d2b1d3b2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60" alt="Rohit Kumar" class="w-28 h-28 rounded-full mx-auto object-cover"/>
+          <h4 class="mt-4 font-semibold">Rohit Kumar</h4>
+          <p class="text-sm text-gray-500">Manager</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT / TESTIMONIAL -->
+  <section id="about" class="py-14">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div class="bg-white rounded-2xl p-6 shadow-lg glass">
+          <h3 class="text-2xl font-bold">About MD Computers</h3>
+          <p class="mt-4 text-gray-600">
+            <strong></strong><br>
+            MD Computers Private Limited is a premier institute in Patiala. We offer multiple courses in industry-leading technologies like C++, Java, PHP, .Net, Python, Web Design & Development, Android, Networking and Hardware, Business Management, Finance and Accounting.
+          </p>
+
+          <p class="mt-4 text-gray-600">
+            After completing our courses, students become IT professionals, well-equipped with knowledge and practical skills to solve real-world Information Technology challenges. Since the IT industry evolves rapidly, we continuously update our curriculum to match current industry trends and remove outdated modules. Upon successful course completion, students gain strong command over the latest software tools and are confident to face real-life technical situations.
+          </p>
+
+          <p class="mt-4 text-gray-600">
+            In addition to learning, we also specialize in creating custom-designed websites tailored to meet the unique needs of our clients. Our experienced designers and developers work closely with you to bring your vision to life—ensuring that your website not only looks stunning but functions seamlessly. From user-friendly interfaces to fully responsive layouts, we combine cutting-edge technology with creative design to deliver websites that engage your audience and drive results. Whether you're a startup or an established business, we offer scalable solutions that enhance your online presence.
+          </p>
+
+          <p class="mt-4 text-gray-600">
+            At MD Computers, our mission is to help our clients succeed by providing websites that are not only visually striking but also optimized for performance and user experience.
+          </p>
+
+          <ul class="mt-4 text-gray-600 space-y-2 text-sm">
+            <li>• Highly Qualified & Experienced Faculty</li>
+            <li>• Live Projects</li>
+            <li>• 100% Job Placement Assistance</li>
+          </ul>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-sm">
+          <h4 class="font-semibold">Student Success</h4>
+          <p class="mt-2 text-sm text-gray-600">"I completed Web Development here — got placed within 2 months." — Recent student</p>
+
+          <div class="mt-4 grid grid-cols-3 gap-3 text-center text-sm">
+            <div>
+              <div class="text-2xl font-bold">95%</div>
+              <div class="text-gray-500">Satisfaction</div>
+            </div>
+            <div>
+              <div class="text-2xl font-bold">80+</div>
+              <div class="text-gray-500">Placements</div>
+            </div>
+            <div>
+              <div class="text-2xl font-bold">10+</div>
+              <div class="text-gray-500">Courses</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-14 bg-gradient-to-r from-white to-slate-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="p-6 bg-white rounded-xl shadow-sm">
+          <h3 class="text-2xl font-bold">Get in touch</h3>
+          <p class="mt-2 text-sm text-gray-600">Call or visit us for course details and free counselling.</p>
+
+          <div class="mt-4 space-y-3 text-sm">
+            <div><strong>Address:</strong> 53 Durga Colony, Rajpura Town</div>
+            <div><strong>Phone:</strong> <a href="tel:+919876035260" class="text-indigo-600">9876035260</a></div>
+            <div><strong>Email:</strong> <a href="mailto:info@mdcomputers.com" class="text-indigo-600">info@mdcomputers.com</a> (placeholder)</div>
+          </div>
+
+          <div class="mt-6">
+            <h4 class="font-medium">Working Hours</h4>
+            <p class="text-sm text-gray-600">Mon - Sat: 9:00 AM - 7:00 PM</p>
+          </div>
+
+        </div>
+
+        <div class="p-6 bg-white rounded-xl shadow-sm">
+          <h3 class="text-2xl font-bold">Enroll / Ask a question</h3>
+          <form id="contactForm" class="mt-4 space-y-3">
+            <div>
+              <label class="block text-sm text-gray-600">Full name</label>
+              <input required type="text" name="name" class="w-full mt-1 px-3 py-2 rounded-md border" />
+            </div>
+            <div>
+              <label class="block text-sm text-gray-600">Phone</label>
+              <input required type="tel" name="phone" class="w-full mt-1 px-3 py-2 rounded-md border" />
+            </div>
+            <div>
+              <label class="block text-sm text-gray-600">Course interested</label>
+              <select name="course" class="w-full mt-1 px-3 py-2 rounded-md border">
+                <option>Basic Computers</option>
+                <option>Tally & Accounting</option>
+                <option>Web Development</option>
+                <option>Hardware & Networking</option>
+              </select>
+            </div>
+            <div class="flex gap-3">
+              <button type="submit" class="px-4 py-2 bg-indigo-600 text-white rounded-md">Submit</button>
+              <button type="reset" class="px-4 py-2 border rounded-md">Reset</button>
+            </div>
+            <div id="formMsg" class="text-sm text-green-600 hidden">Thank you! We'll contact you soon.</div>
+          </form>
+          <script>
+            document.getElementById('contactForm').addEventListener('submit', function(e){
+              e.preventDefault();
+              document.getElementById('formMsg').classList.remove('hidden');
+              // In a real site you'd send this to a server or service like Formspree
+            });
+          </script>
+        </div>
+      </div>
+
+      <div class="mt-8 bg-white rounded-xl p-6 shadow-sm">
+        <h4 class="font-semibold">Find us on map</h4>
+        <div class="mt-4 h-64 rounded-md overflow-hidden border">
+          <!-- Placeholder map - replace with real embed if available -->
+          <iframe class="w-full h-full" src="https://www.google.com/maps?q=53%20Durga%20Colony%20Rajpura%20Town&output=embed" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-white border-t mt-12">
+    <div class="max-w-6xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between">
+      <div class="text-sm text-gray-600">© MD Computers Pvt Ltd — 2025</div>
+
+      <div class="text-sm text-gray-600">Contact: <a href="tel:+919876035260" class="text-indigo-600">9876035260</a></div>
+    </div>
+  </footer>
+
+  <script>
+    // mobile menu toggle
+    const btn = document.getElementById('menuBtn');
+    btn && btn.addEventListener('click', ()=>{
+      alert('Use the nav links to explore. For full mobile menu we can add a slide-over — tell me if you want that.');
+    });
+  </script>
+</body>
+</html>
